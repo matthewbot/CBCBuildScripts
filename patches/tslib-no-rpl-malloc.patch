@@ -1,0 +1,18 @@
+Common subdirectories: tslib-1.0/autom4te.cache and tslib-1.0-rplfix/autom4te.cache
+diff -up tslib-1.0/config.h tslib-1.0-rplfix/config.h
+--- tslib-1.0/config.h	2010-03-26 16:47:10.900059320 -0400
++++ tslib-1.0-rplfix/config.h	2010-03-26 16:50:30.891557979 -0400
+@@ -185,7 +185,7 @@
+ #endif
+ 
+ /* Define to rpl_malloc if the replacement function should be used. */
+-#define malloc rpl_malloc
++// #define malloc rpl_malloc
+ 
+ /* Define to `unsigned int' if <sys/types.h> does not define. */
+ /* #undef size_t */
+Common subdirectories: tslib-1.0/etc and tslib-1.0-rplfix/etc
+Common subdirectories: tslib-1.0/m4 and tslib-1.0-rplfix/m4
+Common subdirectories: tslib-1.0/plugins and tslib-1.0-rplfix/plugins
+Common subdirectories: tslib-1.0/src and tslib-1.0-rplfix/src
+Common subdirectories: tslib-1.0/tests and tslib-1.0-rplfix/tests
